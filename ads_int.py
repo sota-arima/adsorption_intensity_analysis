@@ -4,7 +4,7 @@ import pandas as pd
 import MDAnalysis as mda
 import os
 
-#chane working directory
+#change working directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(current_dir)
 print(os.getcwd())
